@@ -23,7 +23,6 @@ const compute = (array) => {
             resolve(msg);
         });
         worker.on('error', err => reject(err));
-        // worker.on('exit', () => console.log('End.'));
     });
 };
 
